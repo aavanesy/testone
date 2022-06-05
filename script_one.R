@@ -24,3 +24,6 @@ df %>%
   filter(y != 'o')
 
 myfun(10)
+
+d = read.delim('data.txt', header = F, sep = ',')
+print(d)
